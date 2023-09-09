@@ -145,6 +145,116 @@ function page() {
       <Image src="/Frame 54.png" width={1000} height={400} className='rounded ' />
       </section>
     </div>
+    <section>
+    {/* <!-- Footer container --> */}
+<footer
+  class="flex flex-col items-center bg-neutral-100 text-center dark:bg-neutral-600 lg:text-left">
+  <div class="container p-6">
+    <div class="grid place-items-center md:grid-cols-2 lg:grid-cols-4">
+      {/* <!--First links section--> */}
+      <div class="mb-6">
+        <h5>Developers</h5>
+        <h5>
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. A esse labore laborum
+        </h5>
+      </div>
+
+      {/* <!--Second links section--> */}
+      <div class="mb-6">
+        <h5
+          class="mb-2.5 font-bold uppercase text-neutral-800 dark:text-neutral-200">
+          Links
+        </h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >About us</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >Case studies</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >How it works</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >Carrers</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >Areas we Serve</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      {/* <!--Third links section--> */}
+      <div class="mb-6">
+        <h5
+          class="mb-2.5 font-bold uppercase text-neutral-800 dark:text-neutral-200">
+          Contact us
+        </h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur iure velit doloribus nisi, tenetur facilis fuga laboriosam.
+          </li>
+          <li>
+            <a href="#!" class="text-neutral-800 dark:text-neutral-200"
+              >+9234652632</a
+            >
+          </li>
+         
+        </ul>
+      </div>
+
+      {/* <!--Fourth links section--> */}
+      <div class="mb-6">
+        <h5
+          class="mb-2.5 font-bold uppercase text-neutral-800 dark:text-neutral-200">
+          Links
+        </h5>
+
+        <ul class="mb-0 list-none">
+          <li>
+            <Image src="/logos.png" width={200} height={200}/>
+          </li>
+         
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {/* <!--Copyright section--> */}
+  <div
+    class="w-full bg-neutral-200 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+    © 2023 Copyright:
+    <a
+      class="text-neutral-800 dark:text-neutral-400"
+      href="https://tailwind-elements.com/"
+      >Tailwind Elements</a
+    >
+  </div>
+</footer>
+    </section>
     </>
   )
 }
